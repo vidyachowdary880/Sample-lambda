@@ -1,0 +1,175 @@
+{
+    "SIPMS001": {
+        "httpCode": "200",
+        "code": "SIPMS001",
+        "description": "REQUEST_COMPLETED_SUCCESSFULLY",
+        "detailedDescription": "REQUEST_COMPLETED_SUCCESSFULLY"
+    },
+    "SIPMH001": {
+        "httpCode": "400",
+        "code": "SIPMH001",
+        "description": "Authorization token invalid",
+        "detailedDescription": "No Authorization token found"
+    },
+    "SIPMB001": {
+        "httpCode": "400",
+        "code": "SIPMB001",
+        "description": "Input parameters are Invalid",
+        "detailedDescription": "Invalid id"
+    },
+    "SIPMB002": {
+        "httpCode": "400",
+        "code": "SIPMB002",
+        "description": "Input parameters are Invalid",
+        "detailedDescription": "Length of name should be minimum 3 characters to maximum 50 characters"
+    },
+    "SIPMB003": {
+        "httpCode": "400",
+        "code": "SIPMB003",
+        "description": "Required parameter missing",
+        "detailedDescription": "id is a required parameter and needs a valid value"
+    },
+    "SIPMB004": {
+        "httpCode": "400",
+        "code": "SIPMB004",
+        "description": "Required parameter missing",
+        "detailedDescription": "name is a required parameter and needs a valid value"
+    },
+    "SIPMB005": {
+        "httpCode": "400",
+        "code": "SIPMB005",
+        "description": "Invalid Request",
+        "detailedDescription": "Invalid request structure"
+    },
+    "SIPME001": {
+        "httpCode": "500",
+        "code": "SIPME001",
+        "description": "Internal Error",
+        "detailedDescription": "Internal Error"
+    },
+    "SIPME002": {
+        "httpCode": "402",
+        "code": "SIPME002",
+        "description": "Invalid Request",
+        "detailedDescription": "OpCode is missing"
+    },
+    "SIPME003": {
+        "httpCode": "402",
+        "code": "SIPME003",
+        "description": "Invalid Request",
+        "detailedDescription": "Invalid OpCode"
+    },
+    "SIPME004": {
+        "httpCode": "504",
+        "code": "SIPME004",
+        "description": "Duplicate Group Name",
+        "detailedDescription": "Duplicate Group Name"
+    },
+    "SIPME005": {
+        "httpCode": "504",
+        "code": "SIPME005",
+        "description": "Duplicate Phase Name",
+        "detailedDescription": "Duplicate Phase Name"
+    },
+    "SIPME006": {
+        "httpCode": "504",
+        "code": "SIPME006",
+        "description": "Group not exists",
+        "detailedDescription": "Group does not exist"
+    },
+    "SIPME007": {
+        "httpCode": "504",
+        "code": "SIPME007",
+        "description": "Phase not exists",
+        "detailedDescription": "Phase does not exist"
+    },
+    "SIPME008": {
+        "httpCode": "504",
+        "code": "SIPME008",
+        "description": "Record not found",
+        "detailedDescription": "Record not found"
+    },
+    "SIPMG001": {
+        "httpCode": "400",
+        "code": "SIPMG001",
+        "description": "Process Error",
+        "detailedDescription": "Process Error"
+    },
+    "SIPMB401": {
+        "httpCode": "400",
+        "code": "SIPMB401",
+        "description": "request validation failed",
+        "detailedDescription": "organization object is required"
+    },
+    "SIPMB402": {
+        "httpCode": "400",
+        "code": "SIPMB401",
+        "description": "request validation failed",
+        "detailedDescription": "organizationName, users, description, coreFour1, coreFour2, coreFour3, coreFour4 fields are required"
+    } ,"SIPMB403": {
+        "httpCode": "400",
+        "code": "SIPMB401",
+        "description": "request validation failed",
+        "detailedDescription": "orgName should be string, minlength 3 and max lenght 100"
+    },
+    "SIPMB405": {
+        "httpCode": "400",
+        "code": "SIPMB401",
+        "description": "request validation failed",
+        "detailedDescription": "users property required fields are missing"
+    },
+    "SIPMB406": {
+        "httpCode": "400",
+        "code": "SIPMB401",
+        "description": "request validation failed",
+        "detailedDescription": "description property should be string, minlength 3 and max lenght 100"
+    },
+    "SIPMB407":{
+        "httpCode": "400",
+        "code": "SIPMB401",
+        "description": "request validation failed",
+        "detailedDescription": "Phonenumber validation failed"
+    },
+    "SIPMB408":{
+        "httpCode": "400",
+        "code": "SIPMB401",
+        "description": "request validation failed",
+        "detailedDescription": "coreFour validation failed"
+    },
+    "SIPMB409":{
+        "httpCode": "400",
+        "code": "SIPMB401",
+        "description": "request validation failed",
+        "detailedDescription": "change code should be A,D,U"
+    },
+    "SIPMB410":{
+        "httpCode": "400",
+        "code": "SIPMB401",
+        "description": "request validation failed",
+        "detailedDescription": "email validation fialed"
+    },
+    "SIPME411":{
+        "httpCode": "400",
+        "code": "SIPME411",
+        "description": "duplicate organization",
+        "detailedDescription": "organization with same name is already present, please create with different name."
+    },
+    "SIPME412":{
+        "httpCode": "400",
+        "code": "SIPME412",
+        "description": "empty records",
+        "detailedDescription": "no records found against provided organization name."
+    },
+    "SIPME413":{
+        "httpCode": "400",
+        "code": "SIPME413",
+        "description": "organization doesn't exist",
+        "detailedDescription": "no records found against provided organization name."
+    },
+    "SIPME414":{
+        "httpCode": "400",
+        "code": "SIPME414",
+        "description": "users should not be empty",
+        "detailedDescription": "organization should contain atleast one user."
+    }
+}
