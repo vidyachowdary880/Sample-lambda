@@ -1,0 +1,53 @@
+{
+	"groupCreate": {
+        "service": "createGroup",
+        "schema": "groupCreateSchema"
+    },
+    
+    "groupUpdate": {
+        "service": "updateGroup",
+        "schema": "groupEditSchema"
+    },
+    "groupDelete": {
+        "service": "deleteGroup",
+        "schema": "groupDeleteSchema"
+    },
+    "groupList": {
+        "service": "getGroupList"       
+    },
+    "phaseCreate": {
+        "service": "createPhase",
+        "schema": "phaseCreateSchema"
+    },
+    "phaseUpdate": {
+        "service": "updatePhase",
+        "schema": "phaseEditSchema"
+    },
+    "phaseDelete": {
+        "service": "deletePhase",
+        "schema": "phaseDeleteSchema"
+    },
+    "phaseList": {
+        "service": "getPhaseList"       
+    },
+    "organizationCreate": {
+        "service": "createOrganizationRecord",
+        "schema": "createOrganizationSchema"
+    },
+    
+    "organizationGetById": {
+        "service": "getOrganizationService",
+        "schema": "organizationGetByIdSchema"
+    },
+    "organizationUpdate": {
+        "service": "updateOrganization",
+        "schema": "createOrganizationSchema"
+    },
+    "organizationDelete": {
+        "service": "deleteOrganization",
+        "schema": "deleteOrgSchema"
+    },
+    "organizationList": {
+        "service": "getOrganizationList"       
+    }
+}

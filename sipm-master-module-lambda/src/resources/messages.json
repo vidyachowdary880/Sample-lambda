@@ -1,0 +1,182 @@
+{
+    "SIPM_GEN_INF_000": {
+        "httpCode": "200",
+        "description": "Request has been successfully completed"
+    },
+    "SIPM_GEN_ERR_001": {
+        "httpCode": "500",
+        "description": "System is currently unavailable, please try after sometime"
+    },
+    "SIPM_GEN_ERR_002": {
+        "httpCode": "400",
+        "description": "Process Error"
+    },
+    "SIPM_GEN_ERR_003": {
+        "httpCode": "400",
+        "description": "Invalid Opcode"
+    },
+    "SIPM_GEN_ERR_004": {
+        "httpCode": "400",
+        "description": "No Records Found"
+    },
+    "SIPM_GRP_ERR_001": {
+        "httpCode": "400",
+        "description": "group object is required"
+    },
+    "SIPM_GRP_ERR_002": {
+        "httpCode": "400",
+        "description": "Group name is mandatory"
+    },
+    "SIPM_GRP_ERR_003": {
+        "httpCode": "400",
+        "description": "Invalid Group name. Length should be between 3 and 50 characters"
+    },
+    "SIPM_GRP_ERR_004": {
+        "httpCode": "400",
+        "description": "Group id is mandatory"
+    },
+    "SIPM_GRP_ERR_005": {
+        "httpCode": "400",
+        "description": "Invalid Group id. Group id should be a string"
+    },
+    "SIPM_GRP_ERR_006": {
+        "httpCode": "400",
+        "description": "Duplicate Group Name"
+    },
+    "SIPM_GRP_ERR_007": {
+        "httpCode": "400",
+        "description": "Group is referred in existing Organization Users, Project Organization Chart, Roles & Responsibilities or Activity Schedule"
+    },
+    "SIPM_GRP_INF_001": {
+        "httpCode": "400",
+        "description": "No Group Found"
+    },
+    "SIPM_GRP_INF_002": {
+        "httpCode": "400",
+        "description": "Group created successfully"
+    },
+    "SIPM_GRP_INF_003": {
+        "httpCode": "400",
+        "description": "Group modified successfully"
+    },
+    "SIPM_GRP_INF_004": {
+        "httpCode": "400",
+        "description": "Group deleted successfully"
+    },
+    "SIPM_PHS_ERR_001": {
+        "httpCode": "400",
+        "description": "phase object is required"
+    },
+    "SIPM_PHS_ERR_002": {
+        "httpCode": "400",
+        "description": "Phase name is mandatory"
+    },
+    "SIPM_PHS_ERR_003": {
+        "httpCode": "400",
+        "description": "Invalid Phase name. Length should be between 3 and 50 characters"
+    },
+    "SIPM_PHS_ERR_004": {
+        "httpCode": "400",
+        "description": "Phase id is mandatory"
+    },
+    "SIPM_PHS_ERR_005": {
+        "httpCode": "400",
+        "description": "Invalid Phase id. Phase id should be a string"
+    },
+    "SIPM_PHS_ERR_006": {
+        "httpCode": "400",
+        "description": "Duplicate Phase Name"
+    },
+    "SIPM_PHS_ERR_007": {
+        "httpCode": "400",
+        "description": "Phase is referred in existing Organization Users, Project Organization Chart, Roles & Responsibilities or Activity Schedule"
+    },
+    "SIPM_PHS_INF_001": {
+        "httpCode": "400",
+        "description": "No Phase Found"
+    },
+    "SIPM_PHS_INF_002": {
+        "httpCode": "400",
+        "description": "Phase created successfully"
+    },
+    "SIPM_PHS_INF_003": {
+        "httpCode": "400",
+        "description": "Phase modified successfully"
+    },
+    "SIPM_PHS_INF_004": {
+        "httpCode": "400",
+        "description": "Phase deleted successfully"
+    },
+    "SIPM_ORG_ERR_001": {
+        "httpCode": "400",
+        "description": "organization object is required"
+    },
+    "SIPM_ORG_ERR_002": {
+        "httpCode": "400",
+        "description": "organizationName, users, description, coreFour1, coreFour2, coreFour3, coreFour4 fields are required"
+    } ,
+    "SIPM_ORG_ERR_003": {
+        "httpCode": "400",
+        "description": "orgName should be string, minlength 3 and max lenght 100"
+    },
+    "SIPM_ORG_ERR_004": {
+        "httpCode": "400",
+        "description": "users list is required"
+    },
+    "SIPM_ORG_ERR_005": {
+        "httpCode": "400",
+        "description": "users should contain firstName, lastName, email and phoneNo"
+    },
+    "SIPM_ORG_ERR_006": {
+        "httpCode": "400",
+        "description": "description property should be string, minlength 3 and max lenght 100"
+    },
+    "SIPM_ORG_ERR_007":{
+        "httpCode": "400",
+        "description": "Phonenumber validation failed"
+    },
+    "SIPM_ORG_ERR_008":{
+        "httpCode": "400",
+        "description": "coreFour validation failed"
+    },
+    "SIPM_ORG_ERR_009":{
+        "httpCode": "400",
+        "description": "change code should be A,D,U"
+    },
+    "SIPM_ORG_ERR_010":{
+        "httpCode": "400",
+        "description": "email validation fialed"
+    },
+    "SIPM_ORG_ERR_011":{
+        "httpCode": "400",
+        "description":"organization with same name is already present, please create with different name."
+    },
+    "SIPM_ORG_ERR_012":{
+        "httpCode": "400",
+        "description": "empty records"
+    },
+    "SIPM_ORG_ERR_013":{
+        "httpCode": "400",
+        "description": "organization doesn't exist"
+    },
+    "SIPM_ORG_ERR_014":{
+        "httpCode": "400",
+        "description": "organization should contain atleast one user."
+    },
+    "SIPM_ORG_ERR_015":{
+        "httpCode": "400",
+        "description": "query parameter name is requried."
+    },
+    "SIPM_ORG_ERR_016":{
+        "httpCode": "400",
+        "description": "name should be string."
+    },
+    "SIPM_ORG_ERR_017":{
+        "httpCode": "400",
+        "description": "organizationName should be string."
+    },
+    "SIPM_ORG_ERR_018":{
+        "httpCode": "400",
+        "description": "organizationName is requied in the body."
+    }
+}

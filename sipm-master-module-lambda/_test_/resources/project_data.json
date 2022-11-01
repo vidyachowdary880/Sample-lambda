@@ -1,0 +1,148 @@
+{
+	"status":
+	   {
+		  "code":"200",
+		  "errorCode":null,
+		  "messages":
+		  [
+			 {
+				"code":"M00000",
+				"description":"REQUEST_COMPLETED_SUCCESSFULLY",
+			   "detailedDescription":"REQUEST_COMPLETED_SUCCESSFULLY"
+			 }
+		  ]
+	   },
+	   "requestId":"swabvsaosmlshsjzvuupcxckdpalkettqcsf",
+	   "responseTime":"29206",
+	   "timestamp":"Tue, 05 Mar 2019 06:35:59 GMT",
+	   "responseCode":"",
+	   "responseDesc":"",
+	   "pageInfo":{
+		"pageNo":"",
+		"pageSize" : "",
+		 "recordSize":""	
+	   },
+
+
+    "projects":
+	[{
+		"projectCode":"HQ360C-006C",
+		"projectName":"West Dallas 360",
+		"projectLead":"Colleen Casey",
+		"classification":"Public",
+		"focusarea1":"yes",
+		"focusarea2":"yes",
+		"focusarea3":"no",
+		"focusarea4":"yes",
+		"focusarea5":"yes",
+		"status":"completed"
+	},
+	{
+		"project_code":"DL345B-TT8",
+		"project_name":"Toyota",
+		"project_lead":"Amanda Roark",
+		"classification":"Protected",
+		"focusarea1":"yes",
+		"focusarea2":"yes",
+		"focusarea3":"yes",
+		"focusarea4":"no",
+		"focusarea5":"no",
+		"status":"Draft"
+	},
+	{
+		"project_code":"PG584-210-PO",
+		"project_name":"Playground",
+		"project_lead":"Dawn Woods",
+		"classification":"Confidential",
+		"focusarea1":"yes",
+		"focusarea2":"no",
+		"focusarea3":"no",
+		"focusarea4":"no",
+		"focusarea5":"yes",
+		"status":"Created"
+	},
+	{
+		"project_code":"DL345B-TT8",
+		"project_name":"Toyota",
+		"project_lead":"Amanda Roark",
+		"classification":"Protected",
+		"focusarea1":"no",
+		"focusarea2":"yes",
+		"focusarea3":"no",
+		"focusarea4":"yes",
+		"focusarea5":"yes",
+		"status":"Draft"
+	},
+	{
+		"project_code":"DL345B-TT8",
+		"project_name":"Toyota",
+		"project_lead":"Amanda Roark",
+		"classification":"Protected",
+		"focusarea1":"no",
+		"focusarea2":"yes",
+		"focusarea3":"no",
+		"focusarea4":"yes",
+		"focusarea5":"yes",
+		"status":"Draft"
+	},
+	{
+		"project_code":"CS237-43D",
+		"project_name":"Community Center",
+		"project_lead":"Mario De La Garja",
+		"classification":"Protected",
+		"focusarea1":"yes",
+		"focusarea2":"no",
+		"focusarea3":"yes",
+		"focusarea4":"yes",
+		"focusarea5":"no",
+		"status":"In Progress"
+	},
+	{
+		"project_code":"DPLP-H36D",
+		"project_name":"Develop PL Pilot",
+		"project_lead":"Pamela Bailey",
+		"classification":"Protected",
+		"focusarea1":"yes",
+		"focusarea2":"yes",
+		"focusarea3":"no",
+		"focusarea4":"no",
+		"focusarea5":"yes",
+		"status":"closed"
+	},
+	{
+		"project_code":"PG567-PO",
+		"project_name":"PlayGround",
+		"project_lead":"Amanda Roark",
+		"classification":"Protected",
+		"focusarea1":"no",
+		"focusarea2":"yes",
+		"focusarea3":"yes",
+		"focusarea4":"no",
+		"focusarea5":"yes",
+		"status":"Draft"
+	},
+	{
+		"project_code":"DL56B-8",
+		"project_name":"Community Center",
+		"project_lead":"Colleen Casey",
+		"classification":"Protected",
+		"focusarea1":"no",
+		"focusarea2":"yes",
+		"focusarea3":"no",
+		"focusarea4":"yes",
+		"focusarea5":"yes",
+		"status":"Draft"
+	},
+	{
+		"project_code":"DL345B-TT8",
+		"project_name":"Toyota",
+		"project_lead":"Amanda Roark",
+		"classification":"Protected",
+		"focusarea1":"yes",
+		"focusarea2":"yes",
+		"focusarea3":"no",
+		"focusarea4":"yes",
+		"focusarea5":"no",
+		"status":"completed"
+	}]
+}	
